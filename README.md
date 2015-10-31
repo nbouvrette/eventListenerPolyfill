@@ -30,9 +30,9 @@ Simply load this script in your HTML code and use the `addEventListener` and `re
 
 Example
 
-1) Add the script on your page
+1) Add the script on your page:
 
-	<script src="js/addEventListenerIEPolyfill.js"></script>
+	<script src="addEventListenerIEPolyfill.js"></script>
 
 2) Try your new methods on old browsers:
 
@@ -44,4 +44,4 @@ Example
     var say = function (something) {alert('You said ' + something);};
     window.addEventListener('load', function () {say('hello world')});
 
-3) You're done
+3) You're done.
