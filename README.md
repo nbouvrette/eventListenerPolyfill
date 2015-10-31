@@ -13,6 +13,12 @@ The second version has not had a lot visibility given it was hosted on a Japanes
 
 _This script is stand alone and does not required any external library._
 
+### Size
+
+- Full version: 5k 
+- Minified: 1.2k
+- Minified & Compressed: 0.8k
+
 ### Supports
  - Browsers: IE6-IE8 (all other browsers will ignore the script)
  - Scope: useCapture is not supported when using the Polyfill
