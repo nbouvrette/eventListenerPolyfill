@@ -41,7 +41,7 @@ Example
     window.addEventListener('load', helloWorld);
     
     // Example passing an argument.
-    var say = function (something) {alert('You said' + something);};
+    var say = function (something) {alert('You said ' + something);};
     window.addEventListener('load', function () {say('hello world')});
 
 3) You're done
