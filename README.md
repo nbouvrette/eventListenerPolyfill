@@ -32,7 +32,7 @@ Example
 
 1) Add the script on your page:
 
-	<script src="addEventListenerIEPolyfill.js"></script>
+	<script src="eventListenerIEPolyfill.js"></script>
 
 2) Try your new methods on old browsers:
 
