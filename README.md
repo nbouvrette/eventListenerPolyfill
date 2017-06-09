@@ -32,16 +32,20 @@ Example
 
 1) Add the script on your page:
 
-	<script src="eventListenerIEPolyfill.js"></script>
+```html
+<script src="eventListenerIEPolyfill.js"></script>
+```
 
 2) Try your new methods on old browsers:
 
-    // Example with an object.
-    var helloWorld = function () {alert('hello world');};
-    window.addEventListener('load', helloWorld);
-    
-    // Example passing an argument.
-    var say = function (something) {alert('You said ' + something);};
-    window.addEventListener('load', function () {say('hello world')});
+```javascript
+// Example with an object.
+var helloWorld = function () {alert('hello world');};
+window.addEventListener('load', helloWorld);
+
+// Example passing an argument.
+var say = function (something) {alert('You said ' + something);};
+window.addEventListener('load', function () {say('hello world')});
+```
 
 3) You're done.
